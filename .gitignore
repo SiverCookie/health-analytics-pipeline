@@ -1,0 +1,27 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+.venv/
+env/
+venv/
+
+# Databases
+db/*.db
+
+# Backup files
+*.bak
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

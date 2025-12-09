@@ -1,0 +1,17 @@
+{
+    "heart_rate_checks": {
+        "missing_values": 0,
+        "duplicate_rows": 0,
+        "invalid_timestamps": 0,
+        "invalid_numeric_values": 0,
+        "out_of_range_values": 0
+    },
+    "steps_checks": {
+        "missing_values": 0,
+        "duplicate_rows": 0,
+        "invalid_timestamps": 0,
+        "invalid_numeric_values": 0,
+        "negative_values": 0
+    },
+    "status": "PASS"
+}
