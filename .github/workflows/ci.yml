@@ -24,9 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Add project root to PYTHONPATH
+        run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+
       - name: Run tests
         run: pytest
-        
+
       - name: Run ETL pipeline
         run: python etl/pipeline.py
 
