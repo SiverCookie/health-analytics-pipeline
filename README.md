@@ -1,4 +1,11 @@
 📌 Health Analytics ETL Pipeline
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey)
+![Docker](https://img.shields.io/badge/Docker-Ready-brightgreen)
+![Prefect](https://img.shields.io/badge/Orchestration-Prefect%203-blueviolet)
+![CI/CD](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-success)
+![Tests](https://img.shields.io/badge/Tests-Pytest-green)
+![Status](https://img.shields.io/badge/Build-Passing-brightgreen)
 
 A Python-based data engineering pipeline for cleaning, validating, and loading simulated wearable device data.
 
