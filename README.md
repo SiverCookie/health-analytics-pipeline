@@ -156,7 +156,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 3️⃣ Run the ETL using Prefect (full orchestration)
-python etl/pipeline.py
+python etl/pipeline.py or python -m etl/pipeline.py
 
 4️⃣ Run unit tests
 pytest
